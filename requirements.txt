@@ -1,0 +1,42 @@
+# Chat Message Filter - Unit Testing Project
+# Requirements file for all dependencies
+
+# Core Testing Framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Web Framework for Backend Server
+Flask>=2.3.0
+
+# Code Coverage and Analysis
+coverage>=7.0.0
+
+# Development and Testing Utilities
+pytest-mock>=3.10.0
+pytest-html>=3.1.0
+
+# Optional: For advanced testing features
+pytest-xdist>=3.0.0          # Parallel test execution
+pytest-benchmark>=4.0.0      # Performance benchmarking
+
+# Optional: For code quality and linting
+flake8>=6.0.0                # Code style checker
+black>=23.0.0                # Code formatter
+mypy>=1.0.0                  # Type checking
+
+# Optional: For documentation generation
+sphinx>=6.0.0               # Documentation generator
+sphinx-rtd-theme>=1.2.0     # ReadTheDocs theme
+
+# Core Python packages (usually included but listed for completeness)
+# json - Built-in
+# re - Built-in  
+# os - Built-in
+# sys - Built-in
+# datetime - Built-in
+# threading - Built-in
+# webbrowser - Built-in
+# tempfile - Built-in
+# unittest.mock - Built-in
+
+# Note: All built-in modules are included with Python standard library
